@@ -8,11 +8,11 @@ function App() {
   return (
     <>
     
-      <div className="w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border text-white border-gray-900  flex gap-44 justify-center items-center  bg-white/35">
-      {}
-        <div className="w-[30%] h-fit  flex flex-col  backdrop-blur-lg bg-black/30 shadow-2xl rounded-3xl p-2">
-          <h1 className=" pt-5 text-3xl h-full font-bold text-center w-full">{isSignIn?"Sign in":"Sign up"}</h1>
-          <div className="p-10  h-full">
+      <div className=" w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border text-white border-gray-900  flex  justify-center items-center  bg-white/35">
+      
+        <div className="w-[80%] md:w-[30%] h-fit  flex flex-col  backdrop-blur-lg bg-black/30 shadow-2xl rounded-3xl p-2">
+          <h1 className=" pt-5 text-3xl h-full font-bold text-center md:w-full">{isSignIn?"Sign in":"Sign up"}</h1>
+          <div className="p-10 w-full  h-full">
           <form action="" className="">
             <ul className="flex flex-col gap-6">
               <li className="flex flex-col gap-5 ">
